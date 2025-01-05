@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+.box{
+  width: 1420px;
+  margin: 0 auto;
+}
+.color1{ color: #e5cc0c; }
+.color2{ color: #f6dc0e; }
+.color3{ color: #f5f3e0; }
+.color4{ color: #4A4C56; }
+
+.bg-layered {
+  background-image: url('../src/assets/Backgrounds/contactVar.svg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-repeat: no-repeat, repeat;
+  background-size: cover, cover;
+}
